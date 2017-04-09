@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btntinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="165dp"
+        android:layout_marginStart="129dp"
+        android:text="Tra ve" />
+
+    <EditText
+        android:id="@+id/edtchao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btntinh"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="63dp"
+        android:layout_marginStart="69dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Chào đi" />
+
+    <TextView
+        android:id="@+id/txtHienthi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtchao"
+        android:layout_alignStart="@+id/btntinh"
+        android:layout_marginBottom="84dp"
+        android:text="TextView" />
+</RelativeLayout>

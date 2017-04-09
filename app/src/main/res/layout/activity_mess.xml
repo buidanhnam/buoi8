@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical"
+    tools:context="com.example.bui.buoi8.MessActivity">
+
+    <EditText
+        android:id="@+id/edt_contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="Contact" />
+    <Button
+        android:id="@+id/btn_danhba"
+        android:layout_width="100dp"
+        android:text="Danh ba"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_SendMess"
+        android:text="Send Mess"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>

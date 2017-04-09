@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backround">#e2c3ce</color>
+    <color name="colorDialier">#3cec29</color>
+    <color name="colorMes">#29ecdc</color>
+    <color name="colorcamera">#29c8ec</color>
+    <color name="colorcontacts">#ec2953</color>
+    <color name="colormusic">#ec29cf</color>
+    <color name="colorGladie">#b0cc35</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorBackround_Dialer">#35ab93</color>
+
+</resources>
